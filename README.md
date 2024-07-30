@@ -2,6 +2,10 @@
 
 ## Overview
 
+![Screenshot 2024-07-24 103420](https://github.com/user-attachments/assets/f97b44a7-9b48-42db-b03c-a1a2a162d2cb)
+
+
+
 This project is an interactive Rock Paper Scissors game that utilizes machine learning and voice detection to allow players to control the game using their voice. The game is developed using JavaScript, HTML, and CSS, with a focus on delivering an engaging user experience.
 
 ## Features
