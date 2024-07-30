@@ -1,0 +1,147 @@
+body {
+    margin: 3px;
+    padding: 5px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(45deg, #d2001a, #7462ff, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+  }
+
+  @keyframes color{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100 50%;
+    }
+    10%{
+      background-position: 0 50%;
+    }
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Honk', system-ui;
+    font-weight: 400;
+    font-size: 60px;
+  }
+  
+  .p5Canvas{
+    display: none;
+  }
+
+
+  .container {
+    margin-top: 15px;
+    border: 5px solid black;
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  
+  #instruct{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .player {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+  }
+  
+  .container2 {
+    border: 3px double black;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Press Start 2P';
+  }
+  .flipped {
+    transform: scaleX(-1);
+  }
+  
+.wdl{
+  margin-left: 4px;
+    width: 100%;
+}
+
+  #gameCont {
+    margin-left: 4px;
+    width: 100%;
+    /* display: none; */
+  }
+  
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    height: 100px;
+  }
+
+  .footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 3px;
+    color: rgb(159, 158, 158);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+
+  .bi-github, .bi-linkedin, .bi-twitter-x{
+    height: 30px;
+    width: 30px;
+    /* border-radius: 45%; */
+    color: color-mix(in srgb-linear, pink 50%, blue 50%);
+    
+  } 
+
+  .footer a:hover{
+    height: 60px;
+    width: 60px;
+    background-color: #b512a5;
+    z-index: 0;
+  }
+
+
+  .bi-github:hover, .bi-linkedin:hover, .bi-twitter-x:hover{
+    /* animation: rotate 1s linear; */
+    height: 35px;
+    width: 35px;
+    /* background: linear-gradient(45deg, black, green); */
+  }
+
+  @keyframes rotate{
+    from{
+      transform: rotate(0deg);
+    }to{
+      transform: rotate(360deg);
+    }
+  }
